@@ -1,0 +1,30 @@
+.items{
+    width: 180px;
+    height:230px;
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.2),1px 1px 10px  rgba(0,0,0,0.1);
+    border: 1px solid transparent;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    background-color: #fff;
+}
+.items__image{
+    width:130px;
+    height:130px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    
+}
+.items__title{
+    font-size: 17px;
+    font-weight: bold;
+}
+@media(max-width:460px){
+    .items{
+        width:140px;
+        height:200px;
+    }
+}
